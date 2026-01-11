@@ -33,6 +33,16 @@
               "name": "Object-Oriented Programming",
               "resources": [],
               "notes": ""
+            },
+            {
+              "name": "Error Handling and Exceptions",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "File I/O Operations",
+              "resources": [],
+              "notes": ""
             }
           ]
         },
@@ -41,22 +51,53 @@
           "name": "Essential Libraries",
           "subtopics": [
             {
-              "name": "NumPy",
+              "name": "NumPy - Numerical Computing",
               "resources": [],
               "notes": ""
             },
             {
-              "name": "Pandas",
+              "name": "Pandas - Data Manipulation",
               "resources": [],
               "notes": ""
             },
             {
-              "name": "Matplotlib",
+              "name": "Matplotlib - Visualization",
               "resources": [],
               "notes": ""
             },
             {
-              "name": "Seaborn",
+              "name": "Seaborn - Statistical Graphics",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Plotly - Interactive Visualization",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1.3,
+          "name": "Databases & APIs",
+          "subtopics": [
+            {
+              "name": "SQL Databases",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "NoSQL Databases",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "REST APIs",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "gRPC Services",
               "resources": [],
               "notes": ""
             }
@@ -70,7 +111,7 @@
       "description": "Essential math concepts for AI/ML",
       "topics": [
         {
-          "id": 1.1,
+          "id": 2.1,
           "name": "Linear Algebra",
           "subtopics": [
             {
@@ -89,7 +130,12 @@
               "notes": ""
             },
             {
-              "name": "Matrix Decomposition (SVD, QR)",
+              "name": "Singular Value Decomposition (SVD)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Matrix Determinants and Inverses",
               "resources": [],
               "notes": ""
             },
@@ -101,7 +147,7 @@
           ]
         },
         {
-          "id": 1.2,
+          "id": 2.2,
           "name": "Calculus",
           "subtopics": [
             {
@@ -115,7 +161,12 @@
               "notes": ""
             },
             {
-              "name": "Chain Rule",
+              "name": "Chain Rule of Derivation",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Jacobian and Hessian Matrices",
               "resources": [],
               "notes": ""
             },
@@ -123,16 +174,11 @@
               "name": "Optimization (Gradient Descent)",
               "resources": [],
               "notes": ""
-            },
-            {
-              "name": "Backpropagation Fundamentals",
-              "resources": [],
-              "notes": ""
             }
           ]
         },
         {
-          "id": 1.3,
+          "id": 2.3,
           "name": "Probability & Statistics",
           "subtopics": [
             {
@@ -159,11 +205,21 @@
               "name": "Correlation and Covariance",
               "resources": [],
               "notes": ""
+            },
+            {
+              "name": "Descriptive Statistics",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Discrete Mathematics",
+              "resources": [],
+              "notes": ""
             }
           ]
         },
         {
-          "id": 1.4,
+          "id": 2.4,
           "name": "Information Theory",
           "subtopics": [
             {
@@ -196,98 +252,89 @@
       ]
     },
     {
-      "id": 2,
-      "category": "Python & Programming Basics",
-      "description": "Essential programming skills for AI/ML development",
+      "id": 3,
+      "category": "Data Collection & Preprocessing",
+      "description": "Data gathering, cleaning, and preparation for ML",
       "topics": [
         {
-          "id": 2.1,
-          "name": "Python Fundamentals",
+          "id": 3.1,
+          "name": "Data Sources",
           "subtopics": [
             {
-              "name": "Data Types and Structures",
+              "name": "Databases (SQL, NoSQL)",
               "resources": [],
               "notes": ""
             },
             {
-              "name": "Functions and Modules",
+              "name": "APIs and Web Scraping",
               "resources": [],
               "notes": ""
             },
             {
-              "name": "Object-Oriented Programming",
-              "resources": [],
-              "notes": ""
-            },
-            {
-              "name": "Error Handling",
-              "resources": [],
-              "notes": ""
-            },
-            {
-              "name": "File I/O",
+              "name": "IoT and Mobile Apps",
               "resources": [],
               "notes": ""
             }
           ]
         },
         {
-          "id": 2.2,
-          "name": "NumPy & Pandas",
+          "id": 3.2,
+          "name": "Data Formats",
           "subtopics": [
             {
-              "name": "NumPy Arrays and Operations",
+              "name": "JSON",
               "resources": [],
               "notes": ""
             },
             {
-              "name": "Broadcasting",
+              "name": "CSV and Excel",
               "resources": [],
               "notes": ""
             },
             {
-              "name": "Pandas DataFrames",
-              "resources": [],
-              "notes": ""
-            },
-            {
-              "name": "Data Manipulation",
-              "resources": [],
-              "notes": ""
-            },
-            {
-              "name": "Data Cleaning",
+              "name": "Parquet",
               "resources": [],
               "notes": ""
             }
           ]
         },
         {
-          "id": 2.3,
-          "name": "Visualization & Analysis",
+          "id": 3.3,
+          "name": "Data Cleaning",
           "subtopics": [
             {
-              "name": "Matplotlib",
+              "name": "Handling Missing Values",
               "resources": [],
               "notes": ""
             },
             {
-              "name": "Seaborn",
+              "name": "Outlier Detection",
               "resources": [],
               "notes": ""
             },
             {
-              "name": "Plotly",
+              "name": "Data Normalization",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 3.4,
+          "name": "Feature Engineering",
+          "subtopics": [
+            {
+              "name": "Feature Selection",
               "resources": [],
               "notes": ""
             },
             {
-              "name": "Data Exploration",
+              "name": "Feature Scaling",
               "resources": [],
               "notes": ""
             },
             {
-              "name": "Statistical Visualization",
+              "name": "Encoding Categorical Variables",
               "resources": [],
               "notes": ""
             }
@@ -296,12 +343,12 @@
       ]
     },
     {
-      "id": 3,
+      "id": 4,
       "category": "Machine Learning Fundamentals",
       "description": "Core ML concepts and algorithms",
       "topics": [
         {
-          "id": 3.1,
+          "id": 4.1,
           "name": "Supervised Learning",
           "subtopics": [
             {
@@ -342,7 +389,7 @@
           ]
         },
         {
-          "id": 3.2,
+          "id": 4.2,
           "name": "Unsupervised Learning",
           "subtopics": [
             {
@@ -378,7 +425,7 @@
           ]
         },
         {
-          "id": 3.3,
+          "id": 4.3,
           "name": "Model Evaluation & Validation",
           "subtopics": [
             {
@@ -419,7 +466,7 @@
           ]
         },
         {
-          "id": 3.4,
+          "id": 4.4,
           "name": "Ensemble Methods",
           "subtopics": [
             {
@@ -452,12 +499,12 @@
       ]
     },
     {
-      "id": 4,
+      "id": 5,
       "category": "Deep Learning",
       "description": "Neural networks and deep learning architectures",
       "topics": [
         {
-          "id": 4.1,
+          "id": 5.1,
           "name": "Neural Network Basics",
           "subtopics": [
             {
@@ -486,6 +533,11 @@
               "notes": ""
             },
             {
+              "name": "Backpropagation",
+              "resources": [],
+              "notes": ""
+            },
+            {
               "name": "Regularization Techniques",
               "resources": [],
               "notes": ""
@@ -493,7 +545,28 @@
           ]
         },
         {
-          "id": 4.2,
+          "id": 5.2,
+          "name": "Deep Learning Frameworks",
+          "subtopics": [
+            {
+              "name": "TensorFlow",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "PyTorch",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Keras",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 5.3,
           "name": "Convolutional Neural Networks (CNN)",
           "subtopics": [
             {
@@ -529,7 +602,7 @@
           ]
         },
         {
-          "id": 4.3,
+          "id": 5.4,
           "name": "Recurrent Neural Networks (RNN)",
           "subtopics": [
             {
@@ -560,7 +633,7 @@
           ]
         },
         {
-          "id": 4.4,
+          "id": 5.5,
           "name": "Transformer Architecture",
           "subtopics": [
             {
@@ -596,7 +669,7 @@
           ]
         },
         {
-          "id": 4.5,
+          "id": 5.6,
           "name": "Generative Models",
           "subtopics": [
             {
@@ -629,12 +702,12 @@
       ]
     },
     {
-      "id": 5,
+      "id": 6,
       "category": "Natural Language Processing (NLP)",
       "description": "NLP techniques and models for text processing",
       "topics": [
         {
-          "id": 5.1,
+          "id": 6.1,
           "name": "NLP Fundamentals",
           "subtopics": [
             {
@@ -670,7 +743,7 @@
           ]
         },
         {
-          "id": 5.2,
+          "id": 6.2,
           "name": "Language Models",
           "subtopics": [
             {
@@ -701,7 +774,7 @@
           ]
         },
         {
-          "id": 5.3,
+          "id": 6.3,
           "name": "Advanced NLP Tasks",
           "subtopics": [
             {
@@ -739,16 +812,235 @@
       ]
     },
     {
-      "id": 6,
-      "category": "Vector Databases & Embeddings",
-      "description": "Working with vector representations and vector databases",
+      "id": 7,
+      "category": "LLM Fundamentals",
+      "description": "Large Language Models and their mechanisms",
       "topics": [
         {
-          "id": 6.1,
+          "id": 7.1,
+          "name": "Transformer Models & LLMs",
+          "subtopics": [
+            {
+              "name": "Transformer Architecture Deep Dive",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Scaling Laws",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Context Length",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Self-Attention",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Multi-Head Attention",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 7.2,
+          "name": "Model Mechanics",
+          "subtopics": [
+            {
+              "name": "Tokenization Strategies",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Context Windows",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Token-Based Pricing",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Model Parameters and Layers",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 7.3,
+          "name": "Generation Controls",
+          "subtopics": [
+            {
+              "name": "Temperature",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Frequency Penalty",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Presence Penalty",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Top-p (Nucleus Sampling)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Stopping Criteria",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 7.4,
+          "name": "Model Types & Approaches",
+          "subtopics": [
+            {
+              "name": "Open Weight Models",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Closed Weight Models",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Model Families and Licenses",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Reasoning vs Standard Models",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 7.5,
+          "name": "Working with LLMs & Prompt Engineering",
+          "subtopics": [
+            {
+              "name": "OpenAI APIs",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Open Source LLMs (Llama, Mistral, Qwen)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Prompt Engineering Fundamentals",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Few-Shot Prompting",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Chain-of-Thought Prompting",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Few-shot Learning",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 7.6,
+          "name": "Fine-tuning vs Prompt Engineering",
+          "subtopics": [
+            {
+              "name": "Fine-tuning Techniques",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Parameter-Efficient Fine-tuning (PEFT)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Domain Adaptation",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 7.7,
+          "name": "LLM Optimization",
+          "subtopics": [
+            {
+              "name": "Quantization",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Knowledge Distillation",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Pruning",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Adapter Methods (LoRA)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Efficient Inference",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "category": "Embeddings & Vector Search",
+      "description": "Vector representations and similarity search",
+      "topics": [
+        {
+          "id": 8.1,
           "name": "Embeddings & Vector Representations",
           "subtopics": [
             {
               "name": "Embedding Concepts",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Word Embeddings (Word2Vec, GloVe)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Sentence Embeddings",
               "resources": [],
               "notes": ""
             },
@@ -758,24 +1050,45 @@
               "notes": ""
             },
             {
+              "name": "Image Embeddings",
+              "resources": [],
+              "notes": ""
+            },
+            {
               "name": "Dense vs Sparse Representations",
-              "resources": [],
-              "notes": ""
-            },
-            {
-              "name": "Similarity Metrics (Cosine, Euclidean, Manhattan)",
-              "resources": [],
-              "notes": ""
-            },
-            {
-              "name": "Approximate Nearest Neighbor Search",
               "resources": [],
               "notes": ""
             }
           ]
         },
         {
-          "id": 6.2,
+          "id": 8.2,
+          "name": "Similarity Metrics & Search",
+          "subtopics": [
+            {
+              "name": "Cosine Similarity",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Euclidean Distance",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Manhattan Distance",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Approximate Nearest Neighbor Search (ANN)",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 8.3,
           "name": "Vector Database Platforms",
           "subtopics": [
             {
@@ -811,7 +1124,7 @@
           ]
         },
         {
-          "id": 6.3,
+          "id": 8.4,
           "name": "Vector Database Operations",
           "subtopics": [
             {
@@ -844,16 +1157,16 @@
       ]
     },
     {
-      "id": 7,
-      "category": "Retrieval Augmented Generation (RAG)",
-      "description": "RAG systems for combining retrieval with generation",
+      "id": 9,
+      "category": "RAG (Retrieval Augmented Generation)",
+      "description": "Building retrieval-augmented generation systems",
       "topics": [
         {
-          "id": 7.1,
+          "id": 9.1,
           "name": "RAG Fundamentals",
           "subtopics": [
             {
-              "name": "RAG Architecture",
+              "name": "RAG Architecture Overview",
               "resources": [],
               "notes": ""
             },
@@ -880,7 +1193,7 @@
           ]
         },
         {
-          "id": 7.2,
+          "id": 9.2,
           "name": "RAG Implementation",
           "subtopics": [
             {
@@ -890,6 +1203,16 @@
             },
             {
               "name": "Indexing Documents",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Creating Embeddings",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Vector Database Setup",
               "resources": [],
               "notes": ""
             },
@@ -916,7 +1239,7 @@
           ]
         },
         {
-          "id": 7.3,
+          "id": 9.3,
           "name": "Advanced RAG Techniques",
           "subtopics": [
             {
@@ -952,7 +1275,7 @@
           ]
         },
         {
-          "id": 7.4,
+          "id": 9.4,
           "name": "RAG Evaluation & Optimization",
           "subtopics": [
             {
@@ -985,119 +1308,29 @@
       ]
     },
     {
-      "id": 8,
-      "category": "Large Language Models (LLMs)",
-      "description": "Understanding and working with large language models",
+      "id": 10,
+      "category": "AI Agents 101",
+      "description": "Fundamentals of AI Agents",
       "topics": [
         {
-          "id": 8.1,
-          "name": "LLM Fundamentals",
+          "id": 10.1,
+          "name": "Agent Concepts",
           "subtopics": [
             {
-              "name": "Transformer Architecture Review",
+              "name": "What are AI Agents?",
               "resources": [],
               "notes": ""
             },
             {
-              "name": "Scaling Laws",
+              "name": "Agent vs Chatbot",
               "resources": [],
               "notes": ""
             },
             {
-              "name": "Context Length",
+              "name": "Agent Capabilities",
               "resources": [],
               "notes": ""
             },
-            {
-              "name": "Tokenization Strategies",
-              "resources": [],
-              "notes": ""
-            },
-            {
-              "name": "Model Parameters and Layers",
-              "resources": [],
-              "notes": ""
-            }
-          ]
-        },
-        {
-          "id": 8.2,
-          "name": "Working with LLMs",
-          "subtopics": [
-            {
-              "name": "OpenAI APIs",
-              "resources": [],
-              "notes": ""
-            },
-            {
-              "name": "Open Source LLMs (Llama, Mistral, Qwen)",
-              "resources": [],
-              "notes": ""
-            },
-            {
-              "name": "Model Fine-tuning",
-              "resources": [],
-              "notes": ""
-            },
-            {
-              "name": "Prompt Engineering",
-              "resources": [],
-              "notes": ""
-            },
-            {
-              "name": "Chain-of-Thought Prompting",
-              "resources": [],
-              "notes": ""
-            },
-            {
-              "name": "Few-shot Learning",
-              "resources": [],
-              "notes": ""
-            }
-          ]
-        },
-        {
-          "id": 8.3,
-          "name": "LLM Optimization",
-          "subtopics": [
-            {
-              "name": "Quantization",
-              "resources": [],
-              "notes": ""
-            },
-            {
-              "name": "Knowledge Distillation",
-              "resources": [],
-              "notes": ""
-            },
-            {
-              "name": "Pruning",
-              "resources": [],
-              "notes": ""
-            },
-            {
-              "name": "Adapter Methods (LoRA)",
-              "resources": [],
-              "notes": ""
-            },
-            {
-              "name": "Efficient Inference",
-              "resources": [],
-              "notes": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "category": "Agentic AI",
-      "description": "Building autonomous AI agents and agent systems",
-      "topics": [
-        {
-          "id": 9.1,
-          "name": "Agent Fundamentals",
-          "subtopics": [
             {
               "name": "Agent Definition and Properties",
               "resources": [],
@@ -1112,9 +1345,71 @@
               "name": "Goal-oriented Behavior",
               "resources": [],
               "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 10.2,
+          "name": "Tools & Capabilities",
+          "subtopics": [
+            {
+              "name": "What are Tools?",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Tool Invocation",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Tool Integration Patterns",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Function Calling",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Function Definitions",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Tool Selection",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Tool Chaining",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 10.3,
+          "name": "Agent Loop",
+          "subtopics": [
+            {
+              "name": "Perception / User Input",
+              "resources": [],
+              "notes": ""
             },
             {
               "name": "Reasoning and Planning",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Acting / Tool Invocation",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Observation & Reflection",
               "resources": [],
               "notes": ""
             },
@@ -1126,7 +1421,7 @@
           ]
         },
         {
-          "id": 9.2,
+          "id": 10.4,
           "name": "Agent Architectures",
           "subtopics": [
             {
@@ -1155,49 +1450,99 @@
               "notes": ""
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "category": "Agent Use Cases",
+      "description": "Real-world applications of AI agents",
+      "topics": [
         {
-          "id": 9.3,
-          "name": "Tool Use and Function Calling",
+          "id": 11.1,
+          "name": "Common Use Cases",
           "subtopics": [
             {
-              "name": "Function Definitions",
+              "name": "Personal Assistant",
               "resources": [],
               "notes": ""
             },
             {
-              "name": "Tool Selection",
+              "name": "Code Generation",
               "resources": [],
               "notes": ""
             },
             {
-              "name": "API Integration",
+              "name": "Data Analysis",
               "resources": [],
               "notes": ""
             },
             {
-              "name": "Error Handling",
+              "name": "Web Scraping",
               "resources": [],
               "notes": ""
             },
             {
-              "name": "Tool Chaining",
+              "name": "Content Creation",
               "resources": [],
               "notes": ""
             }
           ]
         },
         {
-          "id": 9.4,
-          "name": "Agent Frameworks",
+          "id": 11.2,
+          "name": "Enterprise Applications",
           "subtopics": [
             {
-              "name": "LangChain Agents",
+              "name": "Customer Support Automation",
               "resources": [],
               "notes": ""
             },
             {
-              "name": "AutoGPT Architecture",
+              "name": "Business Process Automation",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Document Processing",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Research and Insights",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "category": "Agent Frameworks & Tools",
+      "description": "Frameworks and libraries for building agents",
+      "topics": [
+        {
+          "id": 12.1,
+          "name": "Agent Frameworks",
+          "subtopics": [
+            {
+              "name": "LangChain",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "CrewAI",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Autogen",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "LLAMA Index",
               "resources": [],
               "notes": ""
             },
@@ -1219,7 +1564,33 @@
           ]
         },
         {
-          "id": 9.5,
+          "id": 12.2,
+          "name": "Integration Patterns",
+          "subtopics": [
+            {
+              "name": "API Integration",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Database Connections",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "External Service Integration",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Error Handling",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 12.3,
           "name": "Agent Evaluation & Testing",
           "subtopics": [
             {
@@ -1252,12 +1623,12 @@
       ]
     },
     {
-      "id": 10,
+      "id": 13,
       "category": "Agentic RAG",
       "description": "Combining agentic systems with RAG for advanced applications",
       "topics": [
         {
-          "id": 10.1,
+          "id": 13.1,
           "name": "Agentic RAG Fundamentals",
           "subtopics": [
             {
@@ -1283,7 +1654,7 @@
           ]
         },
         {
-          "id": 10.2,
+          "id": 13.2,
           "name": "Query Understanding and Routing",
           "subtopics": [
             {
@@ -1314,7 +1685,7 @@
           ]
         },
         {
-          "id": 10.3,
+          "id": 13.3,
           "name": "Iterative Retrieval and Reasoning",
           "subtopics": [
             {
@@ -1345,7 +1716,7 @@
           ]
         },
         {
-          "id": 10.4,
+          "id": 13.4,
           "name": "Agentic RAG Implementations",
           "subtopics": [
             {
@@ -1376,7 +1747,7 @@
           ]
         },
         {
-          "id": 10.5,
+          "id": 13.5,
           "name": "Advanced Applications",
           "subtopics": [
             {
@@ -1404,12 +1775,66 @@
       ]
     },
     {
-      "id": 11,
+      "id": 14,
+      "category": "Model Cost & Optimization",
+      "description": "Managing costs and optimizing model usage",
+      "topics": [
+        {
+          "id": 14.1,
+          "name": "Cost Management",
+          "subtopics": [
+            {
+              "name": "Pricing of Common Models",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Cost Estimation",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Budget Optimization",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 14.2,
+          "name": "Performance Optimization",
+          "subtopics": [
+            {
+              "name": "Model Selection",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Request Batching",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Caching Strategies",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Inference Optimization",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
       "category": "Fine-tuning and Transfer Learning",
       "description": "Adapting pre-trained models for specific tasks",
       "topics": [
         {
-          "id": 11.1,
+          "id": 15.1,
           "name": "Transfer Learning Basics",
           "subtopics": [
             {
@@ -1440,7 +1865,7 @@
           ]
         },
         {
-          "id": 11.2,
+          "id": 15.2,
           "name": "Model Fine-tuning Techniques",
           "subtopics": [
             {
@@ -1471,7 +1896,7 @@
           ]
         },
         {
-          "id": 11.3,
+          "id": 15.3,
           "name": "Fine-tuning Strategies",
           "subtopics": [
             {
@@ -1504,12 +1929,12 @@
       ]
     },
     {
-      "id": 12,
-      "category": "Model Deployment & MLOps",
-      "description": "Deploying and managing ML models in production",
+      "id": 16,
+      "category": "MLOps & Deployment",
+      "description": "Model deployment, monitoring, and operations",
       "topics": [
         {
-          "id": 12.1,
+          "id": 16.1,
           "name": "Model Serving",
           "subtopics": [
             {
@@ -1540,7 +1965,7 @@
           ]
         },
         {
-          "id": 12.2,
+          "id": 16.2,
           "name": "Containerization & Orchestration",
           "subtopics": [
             {
@@ -1571,7 +1996,7 @@
           ]
         },
         {
-          "id": 12.3,
+          "id": 16.3,
           "name": "MLOps Fundamentals",
           "subtopics": [
             {
@@ -1605,16 +2030,32 @@
               "notes": ""
             }
           ]
+        },
+        {
+          "id": 16.4,
+          "name": "Model Training & Tracking",
+          "subtopics": [
+            {
+              "name": "MLflow",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Weights & Biases",
+              "resources": [],
+              "notes": ""
+            }
+          ]
         }
       ]
     },
     {
-      "id": 13,
+      "id": 17,
       "category": "AI Safety & Ethics",
       "description": "Responsible AI development and deployment",
       "topics": [
         {
-          "id": 13.1,
+          "id": 17.1,
           "name": "AI Ethics",
           "subtopics": [
             {
@@ -1645,7 +2086,7 @@
           ]
         },
         {
-          "id": 13.2,
+          "id": 17.2,
           "name": "Safety and Alignment",
           "subtopics": [
             {
@@ -1676,7 +2117,7 @@
           ]
         },
         {
-          "id": 13.3,
+          "id": 17.3,
           "name": "Privacy and Security",
           "subtopics": [
             {
@@ -1709,16 +2150,26 @@
       ]
     },
     {
-      "id": 14,
+      "id": 18,
       "category": "Practical Projects & Capstone",
       "description": "Building real-world projects to consolidate learning",
       "topics": [
         {
-          "id": 14.1,
+          "id": 18.1,
           "name": "Project 1: Classification ML Model",
           "subtopics": [
             {
+              "name": "Problem Definition",
+              "resources": [],
+              "notes": ""
+            },
+            {
               "name": "Dataset Preparation",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Feature Engineering",
               "resources": [],
               "notes": ""
             },
@@ -1745,7 +2196,7 @@
           ]
         },
         {
-          "id": 14.2,
+          "id": 18.2,
           "name": "Project 2: Deep Learning Application",
           "subtopics": [
             {
@@ -1755,6 +2206,21 @@
             },
             {
               "name": "RNN for Time Series",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Architecture Design",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Data Pipeline",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Model Training",
               "resources": [],
               "notes": ""
             },
@@ -1776,7 +2242,7 @@
           ]
         },
         {
-          "id": 14.3,
+          "id": 18.3,
           "name": "Project 3: RAG System",
           "subtopics": [
             {
@@ -1786,6 +2252,11 @@
             },
             {
               "name": "Vector Database Setup",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Creating Embeddings",
               "resources": [],
               "notes": ""
             },
@@ -1807,7 +2278,7 @@
           ]
         },
         {
-          "id": 14.4,
+          "id": 18.4,
           "name": "Project 4: AI Agent Application",
           "subtopics": [
             {
@@ -1838,7 +2309,7 @@
           ]
         },
         {
-          "id": 14.5,
+          "id": 18.5,
           "name": "Capstone: End-to-End AI Application",
           "subtopics": [
             {
