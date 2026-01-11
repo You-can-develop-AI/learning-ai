@@ -2,6 +2,70 @@
   "learning_path": [
     {
       "id": 1,
+      "category": "Programming Fundamentals",
+      "description": "Essential programming skills required for ML and AI",
+      "topics": [
+        {
+          "id": 1.1,
+          "name": "Python Programming",
+          "subtopics": [
+            {
+              "name": "Basic Syntax and Variables",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Data Types and Structures",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Control Flow (Loops, Conditionals)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Functions and Built-in Functions",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Object-Oriented Programming",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1.2,
+          "name": "Essential Libraries",
+          "subtopics": [
+            {
+              "name": "NumPy",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Pandas",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Matplotlib",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Seaborn",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
       "category": "Mathematics Fundamentals",
       "description": "Essential math concepts for AI/ML",
       "topics": [
