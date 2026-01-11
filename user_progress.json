@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "username": "user1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "started_date": "2025-01-01",
+      "progress": {}
+    },
+    {
+      "username": "user2",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "started_date": "2025-01-05",
+      "progress": {}
+    },
+    {
+      "username": "user3",
+      "name": "Alex Johnson",
+      "email": "alex@example.com",
+      "started_date": "2025-01-10",
+      "progress": {}
+    }
+  ],
+  "progress_structure": {
+    "category_id": {
+      "category_name": "string",
+      "completed": false,
+      "completion_percentage": 0,
+      "topics": {
+        "topic_id": {
+          "topic_name": "string",
+          "completed": false,
+          "subtopics_completed": []
+        }
+      }
+    }
+  },
+  "notes": "Progress is stored as user interactions occur. Each category and topic can be marked as completed. For subtopics, only the completed ones are listed in the array."
+}

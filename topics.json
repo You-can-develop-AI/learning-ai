@@ -1,0 +1,1810 @@
+{
+  "learning_path": [
+    {
+      "id": 1,
+      "category": "Mathematics Fundamentals",
+      "description": "Essential math concepts for AI/ML",
+      "topics": [
+        {
+          "id": 1.1,
+          "name": "Linear Algebra",
+          "subtopics": [
+            {
+              "name": "Vectors and Matrices",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Matrix Operations",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Eigenvalues and Eigenvectors",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Matrix Decomposition (SVD, QR)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Norms and Distance Metrics",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1.2,
+          "name": "Calculus",
+          "subtopics": [
+            {
+              "name": "Derivatives and Gradients",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Partial Derivatives",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Chain Rule",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Optimization (Gradient Descent)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Backpropagation Fundamentals",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1.3,
+          "name": "Probability & Statistics",
+          "subtopics": [
+            {
+              "name": "Probability Distributions",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Bayes' Theorem",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Hypothesis Testing",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Statistical Inference",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Correlation and Covariance",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1.4,
+          "name": "Information Theory",
+          "subtopics": [
+            {
+              "name": "Entropy",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Cross-Entropy Loss",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "KL Divergence",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Mutual Information",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Information Gain",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Python & Programming Basics",
+      "description": "Essential programming skills for AI/ML development",
+      "topics": [
+        {
+          "id": 2.1,
+          "name": "Python Fundamentals",
+          "subtopics": [
+            {
+              "name": "Data Types and Structures",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Functions and Modules",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Object-Oriented Programming",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Error Handling",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "File I/O",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 2.2,
+          "name": "NumPy & Pandas",
+          "subtopics": [
+            {
+              "name": "NumPy Arrays and Operations",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Broadcasting",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Pandas DataFrames",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Data Manipulation",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Data Cleaning",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 2.3,
+          "name": "Visualization & Analysis",
+          "subtopics": [
+            {
+              "name": "Matplotlib",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Seaborn",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Plotly",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Data Exploration",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Statistical Visualization",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Machine Learning Fundamentals",
+      "description": "Core ML concepts and algorithms",
+      "topics": [
+        {
+          "id": 3.1,
+          "name": "Supervised Learning",
+          "subtopics": [
+            {
+              "name": "Linear Regression",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Logistic Regression",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Decision Trees",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Random Forests",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Support Vector Machines (SVM)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Naive Bayes",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "K-Nearest Neighbors (KNN)",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 3.2,
+          "name": "Unsupervised Learning",
+          "subtopics": [
+            {
+              "name": "K-Means Clustering",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Hierarchical Clustering",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "DBSCAN",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Principal Component Analysis (PCA)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Dimensionality Reduction",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Anomaly Detection",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 3.3,
+          "name": "Model Evaluation & Validation",
+          "subtopics": [
+            {
+              "name": "Train/Test/Validation Splits",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Cross-Validation",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Metrics (Accuracy, Precision, Recall, F1)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "ROC-AUC",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Confusion Matrix",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Overfitting and Underfitting",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Hyperparameter Tuning",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 3.4,
+          "name": "Ensemble Methods",
+          "subtopics": [
+            {
+              "name": "Bagging",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Boosting (AdaBoost, Gradient Boosting)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Stacking",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "XGBoost",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "LightGBM",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Deep Learning",
+      "description": "Neural networks and deep learning architectures",
+      "topics": [
+        {
+          "id": 4.1,
+          "name": "Neural Network Basics",
+          "subtopics": [
+            {
+              "name": "Perceptron",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Multilayer Perceptron (MLP)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Activation Functions",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Loss Functions",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Optimization Algorithms (SGD, Adam)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Regularization Techniques",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 4.2,
+          "name": "Convolutional Neural Networks (CNN)",
+          "subtopics": [
+            {
+              "name": "Convolution Operations",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Pooling Layers",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Feature Maps",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Popular Architectures (VGG, ResNet, Inception)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Transfer Learning",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Image Classification",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 4.3,
+          "name": "Recurrent Neural Networks (RNN)",
+          "subtopics": [
+            {
+              "name": "LSTM (Long Short-Term Memory)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "GRU (Gated Recurrent Unit)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Sequence-to-Sequence Models",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Attention Mechanism",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Time Series Prediction",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 4.4,
+          "name": "Transformer Architecture",
+          "subtopics": [
+            {
+              "name": "Self-Attention",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Multi-Head Attention",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Positional Encoding",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Encoder-Decoder Structure",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "BERT, GPT, T5 Models",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Vision Transformers (ViT)",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 4.5,
+          "name": "Generative Models",
+          "subtopics": [
+            {
+              "name": "Autoencoders",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Variational Autoencoders (VAE)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Generative Adversarial Networks (GAN)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Diffusion Models",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Flow-based Models",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Natural Language Processing (NLP)",
+      "description": "NLP techniques and models for text processing",
+      "topics": [
+        {
+          "id": 5.1,
+          "name": "NLP Fundamentals",
+          "subtopics": [
+            {
+              "name": "Tokenization",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Word Embeddings (Word2Vec, GloVe, FastText)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Text Preprocessing",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "POS Tagging",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Named Entity Recognition (NER)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Sentiment Analysis",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 5.2,
+          "name": "Language Models",
+          "subtopics": [
+            {
+              "name": "N-gram Models",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Recurrent Language Models",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Transformer-based Language Models",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Pre-trained Models (BERT, GPT, RoBERTa)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Fine-tuning Language Models",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 5.3,
+          "name": "Advanced NLP Tasks",
+          "subtopics": [
+            {
+              "name": "Machine Translation",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Question Answering",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Text Summarization",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Semantic Similarity",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Document Classification",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Topic Modeling (LDA)",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Vector Databases & Embeddings",
+      "description": "Working with vector representations and vector databases",
+      "topics": [
+        {
+          "id": 6.1,
+          "name": "Embeddings & Vector Representations",
+          "subtopics": [
+            {
+              "name": "Embedding Concepts",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Text Embeddings",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Dense vs Sparse Representations",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Similarity Metrics (Cosine, Euclidean, Manhattan)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Approximate Nearest Neighbor Search",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 6.2,
+          "name": "Vector Database Platforms",
+          "subtopics": [
+            {
+              "name": "Pinecone",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Weaviate",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Milvus",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Chroma",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Faiss (Facebook AI Similarity Search)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Qdrant",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 6.3,
+          "name": "Vector Database Operations",
+          "subtopics": [
+            {
+              "name": "Indexing Strategies",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Similarity Search",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Filtering and Metadata",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Scaling Vector Databases",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Performance Optimization",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "category": "Retrieval Augmented Generation (RAG)",
+      "description": "RAG systems for combining retrieval with generation",
+      "topics": [
+        {
+          "id": 7.1,
+          "name": "RAG Fundamentals",
+          "subtopics": [
+            {
+              "name": "RAG Architecture",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Retriever Components",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Generator Components",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Hybrid Retrieval",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Re-ranking Mechanisms",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 7.2,
+          "name": "RAG Implementation",
+          "subtopics": [
+            {
+              "name": "Document Chunking",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Indexing Documents",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Query Expansion",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Context Windows",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Prompt Engineering for RAG",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Integration with LLMs",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 7.3,
+          "name": "Advanced RAG Techniques",
+          "subtopics": [
+            {
+              "name": "Multi-hop Retrieval",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Iterative Retrieval",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Self-Adaptive RAG",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Knowledge Graph Integration",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Entity-aware Retrieval",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Cross-lingual RAG",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 7.4,
+          "name": "RAG Evaluation & Optimization",
+          "subtopics": [
+            {
+              "name": "Retrieval Metrics (MRR, NDCG)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Generation Quality Metrics",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "End-to-end Evaluation",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Optimizing Retrieval Performance",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Caching and Indexing Strategies",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "category": "Large Language Models (LLMs)",
+      "description": "Understanding and working with large language models",
+      "topics": [
+        {
+          "id": 8.1,
+          "name": "LLM Fundamentals",
+          "subtopics": [
+            {
+              "name": "Transformer Architecture Review",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Scaling Laws",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Context Length",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Tokenization Strategies",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Model Parameters and Layers",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 8.2,
+          "name": "Working with LLMs",
+          "subtopics": [
+            {
+              "name": "OpenAI APIs",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Open Source LLMs (Llama, Mistral, Qwen)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Model Fine-tuning",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Prompt Engineering",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Chain-of-Thought Prompting",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Few-shot Learning",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 8.3,
+          "name": "LLM Optimization",
+          "subtopics": [
+            {
+              "name": "Quantization",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Knowledge Distillation",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Pruning",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Adapter Methods (LoRA)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Efficient Inference",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "category": "Agentic AI",
+      "description": "Building autonomous AI agents and agent systems",
+      "topics": [
+        {
+          "id": 9.1,
+          "name": "Agent Fundamentals",
+          "subtopics": [
+            {
+              "name": "Agent Definition and Properties",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Perception and Actions",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Goal-oriented Behavior",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Reasoning and Planning",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Decision Making",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 9.2,
+          "name": "Agent Architectures",
+          "subtopics": [
+            {
+              "name": "Reactive Agents",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Deliberative Agents",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Hybrid Agents",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Multi-agent Systems",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Communication Protocols",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 9.3,
+          "name": "Tool Use and Function Calling",
+          "subtopics": [
+            {
+              "name": "Function Definitions",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Tool Selection",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "API Integration",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Error Handling",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Tool Chaining",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 9.4,
+          "name": "Agent Frameworks",
+          "subtopics": [
+            {
+              "name": "LangChain Agents",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "AutoGPT Architecture",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "ReAct (Reasoning + Acting)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Plan-and-Execute Agents",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "OpenAI Function Calling",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 9.5,
+          "name": "Agent Evaluation & Testing",
+          "subtopics": [
+            {
+              "name": "Agent Benchmarks",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Task Success Metrics",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Safety and Alignment",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Robustness Testing",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Failure Analysis",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "category": "Agentic RAG",
+      "description": "Combining agentic systems with RAG for advanced applications",
+      "topics": [
+        {
+          "id": 10.1,
+          "name": "Agentic RAG Fundamentals",
+          "subtopics": [
+            {
+              "name": "Integration of Agents and RAG",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Agent-driven Retrieval",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Multi-step Reasoning",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Adaptive Information Seeking",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 10.2,
+          "name": "Query Understanding and Routing",
+          "subtopics": [
+            {
+              "name": "Complex Query Analysis",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Query Decomposition",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Dynamic Tool Selection",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Routing Strategies",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Intent Classification",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 10.3,
+          "name": "Iterative Retrieval and Reasoning",
+          "subtopics": [
+            {
+              "name": "Multi-hop Reasoning",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Iterative Refinement",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Context Accumulation",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Evidence Gathering",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Verification Loops",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 10.4,
+          "name": "Agentic RAG Implementations",
+          "subtopics": [
+            {
+              "name": "Building Agentic RAG Systems",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Framework Selection",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Integration Patterns",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Prompt Design for Agentic RAG",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Performance Optimization",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 10.5,
+          "name": "Advanced Applications",
+          "subtopics": [
+            {
+              "name": "Multi-document Reasoning",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Code Generation and Execution",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Complex Problem Solving",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Research and Analysis Tasks",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "category": "Fine-tuning and Transfer Learning",
+      "description": "Adapting pre-trained models for specific tasks",
+      "topics": [
+        {
+          "id": 11.1,
+          "name": "Transfer Learning Basics",
+          "subtopics": [
+            {
+              "name": "Feature Extraction",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Fine-tuning vs Training from Scratch",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Domain Adaptation",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Few-shot Learning",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Zero-shot Learning",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 11.2,
+          "name": "Model Fine-tuning Techniques",
+          "subtopics": [
+            {
+              "name": "Full Fine-tuning",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Parameter-Efficient Fine-tuning",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "LoRA (Low-Rank Adaptation)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "QLoRA",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Adapter Modules",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 11.3,
+          "name": "Fine-tuning Strategies",
+          "subtopics": [
+            {
+              "name": "Learning Rate Scheduling",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Batch Size Selection",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Gradient Accumulation",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Early Stopping",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Data Augmentation for Fine-tuning",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "category": "Model Deployment & MLOps",
+      "description": "Deploying and managing ML models in production",
+      "topics": [
+        {
+          "id": 12.1,
+          "name": "Model Serving",
+          "subtopics": [
+            {
+              "name": "REST APIs",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "gRPC Services",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "TensorFlow Serving",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "ONNX Runtime",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "FastAPI for ML",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 12.2,
+          "name": "Containerization & Orchestration",
+          "subtopics": [
+            {
+              "name": "Docker Basics",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Kubernetes",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Container Registry",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Model Versioning",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "A/B Testing",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 12.3,
+          "name": "MLOps Fundamentals",
+          "subtopics": [
+            {
+              "name": "Model Monitoring",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Data Drift Detection",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Model Drift Detection",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Retraining Pipelines",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "CI/CD for ML",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Experiment Tracking",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "category": "AI Safety & Ethics",
+      "description": "Responsible AI development and deployment",
+      "topics": [
+        {
+          "id": 13.1,
+          "name": "AI Ethics",
+          "subtopics": [
+            {
+              "name": "Fairness in ML",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Bias Detection and Mitigation",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Explainability (XAI)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Transparency",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Accountability",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 13.2,
+          "name": "Safety and Alignment",
+          "subtopics": [
+            {
+              "name": "Alignment Problem",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Safety Measures",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "RLHF (Reinforcement Learning from Human Feedback)",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Constitutional AI",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Jailbreak Prevention",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 13.3,
+          "name": "Privacy and Security",
+          "subtopics": [
+            {
+              "name": "Data Privacy",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Differential Privacy",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Federated Learning",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Model Adversarial Robustness",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Prompt Injection Prevention",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "category": "Practical Projects & Capstone",
+      "description": "Building real-world projects to consolidate learning",
+      "topics": [
+        {
+          "id": 14.1,
+          "name": "Project 1: Classification ML Model",
+          "subtopics": [
+            {
+              "name": "Dataset Preparation",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Model Selection and Training",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Hyperparameter Tuning",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Evaluation and Analysis",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Deployment",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 14.2,
+          "name": "Project 2: Deep Learning Application",
+          "subtopics": [
+            {
+              "name": "CNN for Image Classification",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "RNN for Time Series",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Fine-tuning Pre-trained Models",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Performance Optimization",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Deployment",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 14.3,
+          "name": "Project 3: RAG System",
+          "subtopics": [
+            {
+              "name": "Data Collection and Preprocessing",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Vector Database Setup",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Integration with LLM",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Testing and Evaluation",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Production Deployment",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 14.4,
+          "name": "Project 4: AI Agent Application",
+          "subtopics": [
+            {
+              "name": "Agent Design",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Tool Integration",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "State Management",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Error Handling",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "End-to-end Testing",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "id": 14.5,
+          "name": "Capstone: End-to-End AI Application",
+          "subtopics": [
+            {
+              "name": "Requirement Analysis",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Architecture Design",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Implementation",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Testing and Validation",
+              "resources": [],
+              "notes": ""
+            },
+            {
+              "name": "Documentation and Deployment",
+              "resources": [],
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
